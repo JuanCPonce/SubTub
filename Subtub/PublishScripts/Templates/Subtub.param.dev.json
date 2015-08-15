@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "Subtub"
+  },
+  "hostingPlanName": {
+    "value": "Default1"
+  },
+  "siteLocation": {
+    "value": "South Central US"
+  },
+  "sku": {
+    "value": "Shared"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "serverus"
+  },
+  "serverLocation": {
+    "value": "North Central US"
+  },
+  "administratorLogin": {
+    "value": "juan.ceponce"
+  },
+  "administratorLoginPassword": {
+    "value": "Sumer2013*"
+  },
+  "databaseName": {
+    "value": "Subtub_db"
+  }
+}
