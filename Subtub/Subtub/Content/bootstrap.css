@@ -233,7 +233,7 @@ table {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    color: #cc3d40;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -341,7 +341,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #cc3d40;
   text-decoration: underline;
 }
 
