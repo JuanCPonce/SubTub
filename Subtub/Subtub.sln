@@ -5,6 +5,22 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtub", "Subtub\Subtub.csproj", "{0C5070F5-1944-4D8A-9EB9-16A19ECDBA83}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{1AD9F062-39E8-4D7F-8287-54C74A4DD103}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{26CBAD84-DD93-4BB8-8512-7C13045B35AB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{225FAE64-20CE-4947-B7A0-947DA559F653}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\Subtub.json = PublishScripts\Templates\Subtub.json
+		PublishScripts\Templates\Subtub.param.dev.json = PublishScripts\Templates\Subtub.param.dev.json
+	EndProjectSection
+EndProject
+>>>>>>> su6a12/master
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,4 +35,11 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
+=======
+	GlobalSection(NestedProjects) = preSolution
+		{26CBAD84-DD93-4BB8-8512-7C13045B35AB} = {1AD9F062-39E8-4D7F-8287-54C74A4DD103}
+		{225FAE64-20CE-4947-B7A0-947DA559F653} = {1AD9F062-39E8-4D7F-8287-54C74A4DD103}
+	EndGlobalSection
+>>>>>>> su6a12/master
 EndGlobal
