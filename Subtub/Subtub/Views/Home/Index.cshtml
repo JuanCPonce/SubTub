@@ -1,17 +1,18 @@
 ﻿    <h1>Sub Tub!</h1>
     <div id="search-container">
-        <span class="glyphicon glyphicon-search"></span>
-        <input type="text" placeholder="Looking For..." id="search" ng-model="query" ng-minlength="1">
+      <span class="glyphicon glyphicon-search"></span>
+      <input type="text" placeholder="Looking For..." id="search" ng-model="query" ng-minlength="1">
     </div>
 
     <div id="list-container" ng-hide="!query">
-        <ul>
-            <div class="article-tile" ng-repeat="post in posts | filter:query">
-            <li>
-                <img class="article-img" ng-src="{{ image(post) }}">
+      <ul>
+        <div class="article-tile" ng-repeat="post in posts | filter:query">
+          <li>
+            <img class="article-img" ng-src="{{ image(post) }}">
             <div class="article-headline">{{ post.headline }}</div>
-            </li>
+            <input type="checkbox"><span class="add">Add</span>
+          </li>
         </div>
-      </ul>
+    </ul>
     </div>
 

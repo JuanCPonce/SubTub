@@ -279,7 +279,7 @@ table {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #1c82d6 !important;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -4012,8 +4012,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav a:hover .caret {
-  border-top-color: #2a6496;
-  border-bottom-color: #2a6496;
+  border-top-color: #1c82d6;
+  border-bottom-color: #1c82d6;
 }
 
 .nav-tabs .dropdown-menu {
@@ -4028,6 +4028,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  background-color: #1c82d6;
 }
 
 .navbar:before,
@@ -4506,7 +4507,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #ffffff;
 }
 
 .navbar-inverse .navbar-brand:hover,
