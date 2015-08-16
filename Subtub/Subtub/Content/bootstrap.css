@@ -4493,15 +4493,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-link {
-  color: #777777;
+  color: #cc3d40;
 }
 
 .navbar-default .navbar-link:hover {
-  color: #333333;
+  color: #cc3d40;
 }
 
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #1c82d6;
   border-color: #080808;
 }
 
